@@ -7,13 +7,22 @@
 4. Run this `mvn clean spring-boot:run`
 
 #### Screen shot
+Add New Data
 
 ![Add New Data](img/add.png "Add New Data")
 
+Get All Data
+
 ![Get All Data](img/list.png "Get All Data")
+
+Get Data By Id
 
 ![Get Data By Id](img/getById.png "Get Data By Id")
 
+Update Data
+
 ![Update Data](img/update.png "Update Data")
+
+Delete Data
 
 ![Delete Data](img/delete.png "Delete Data")
