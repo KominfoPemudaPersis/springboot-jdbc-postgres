@@ -33,13 +33,13 @@ public class RestController {
         return new ResponseEntity<RestResult>(rest, HttpStatus.OK);
     }
 
-    @GetMapping("/")
+    @GetMapping
     public ResponseEntity<List<RestResult>> getAll() {
         List<RestResult> listRest = restService.getAll();
         return new ResponseEntity<List<RestResult>>(listRest, HttpStatus.OK);
     }
 
-    @PostMapping("/")
+    @PostMapping
     public ResponseEntity<RestResult> addRest(@RequestBody Rest rest) {
         restService.addRest(rest);
         RestResult rest2 = restService.getRestById(restService.latestInput());
